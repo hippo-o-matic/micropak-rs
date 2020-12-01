@@ -1,0 +1,18 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug",
+			"program": "${workspaceFolder}/target/debug/micropak-rs",
+			// "args": ["unpack", "/home/hippo/Source/repos/rust_archiver/pack_test.mpk", "-o", "testing/extracted/foo"],
+			// "args": ["pack", "/home/hippo/Source/repos/rust_archiver/testing/in", "-o", "pack"],
+			// "args": ["get", "pack.mpk", "file.txt", "-o", "tests/fun"],
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}

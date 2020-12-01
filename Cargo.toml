@@ -1,0 +1,7 @@
+[package]
+name = "micropak-rs"
+version = "0.1.0"
+authors = ["hippo_o_matic <hippo.o.matic@gmail.com>"]
+
+[dependencies]
+getopts = "0.2"
